@@ -1,0 +1,19 @@
+body {
+    font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+.plan_bg {
+    background: linear-gradient(
+            45deg,red,#ff9a00 10%,#d0de21 20%,#4fdc4a 30%,#3fdad8 40%,#2fc9e2 50%,#1c7fee 60%,#5f15f2 70%,#ba0cf8 80%,#fb07d9 90%,red);
+    animation: planbg 3s ease-in-out infinite alternate;
+    -webkit-animation: planbg 3s ease-in-out infinite alternate;
+}
+
+@keyframes planbg {
+    0% {
+        background-size: 600% 100%;
+    }
+    100% {
+         background-size: 100% 100%;
+    }
+}

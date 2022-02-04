@@ -1,0 +1,40 @@
+{
+  "name": "tailwindcss-cra-example",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "rc-slider": "^9.7.5",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-scripts": "3.0.1",
+    "react-spinners": "^0.11.0",
+    "styled-components": "^5.3.3",
+    "tailwindcss": "^1.0.3",
+    "use-wallet": "^0.13.4",
+    "web3": "^1.6.1"
+  },
+  "scripts": {
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@craco/craco": "^5.2.1"
+  }
+}
